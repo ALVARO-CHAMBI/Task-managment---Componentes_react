@@ -1,0 +1,62 @@
+:root{
+    --red:#EB5757;
+    --green:#219653;
+    --green-difuminado:rgba(36, 151, 86, 0.2);
+    --blue:#2F80ED;
+    --blue-difuminado:rgba(47, 128, 237, 0.2);
+    --purple:#9B51E0;
+    --purple-difuminado:rgba(155, 81, 224, 0.2);
+    --white:#FFFFFF;
+    --plomo:#E5E5E5;
+    --text-black:#2F2F2F;
+    --text-gray:#888888;
+    
+    }
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color:var(--plomo);
+    }
+    .bg-research{
+        background:var(--green-difuminado);
+        width: 76px;
+    }
+    .bg-web-desing{
+        background:var(--blue-difuminado);
+        width: 89px;
+    }
+    .bg-copywriting{
+        background:var(--purple-difuminado);
+        width: 91px;
+    }
+    .bg-research p{
+        color: var(--green);
+        width: 48px;
+    }
+    .bg-web-desing p{
+        color: var(--blue);
+        width: 61px;
+    }
+    .bg-copywriting{
+        color: var(--purple);
+        width: 63px;
+    }
+    .bg-Landing-Page{
+        background:var(--green-difuminado);
+        width: 98px;
+    }
+    .bg-Landing-Page p{
+        color: var(--green);
+        width: 70px;
+    }
+    .descrip-web-desing p{
+        font-weight: 500;
+        text-decoration-line: line-through;
+    }
+    .descrip-copywriting p{
+        font-weight: 500;
+    }
+    .descrip-Landing-Page p{
+        font-weight: normal;
+    }
